@@ -16,8 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.BarInadaptados.BarInadaptados.entities.Persona;
-
-import facade.PersonaFacade;
+import com.BarInadaptados.BarInadaptados.facade.PersonaFacade;
 
 
 @CrossOrigin(origins = "http://localhost:8081")

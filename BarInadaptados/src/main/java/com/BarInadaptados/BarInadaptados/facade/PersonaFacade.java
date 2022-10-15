@@ -1,4 +1,4 @@
-package facade;
+package com.BarInadaptados.BarInadaptados.facade;
 
 import java.util.ArrayList;
 import java.util.List;
