@@ -10,7 +10,7 @@ public class BarInadaptadosApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(BarInadaptadosApplication.class, args);
-		
+		//lalalal
 	}
 
 }

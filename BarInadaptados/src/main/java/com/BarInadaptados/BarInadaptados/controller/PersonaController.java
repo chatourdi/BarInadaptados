@@ -19,7 +19,7 @@ import com.BarInadaptados.BarInadaptados.entities.Persona;
 import com.BarInadaptados.BarInadaptados.facade.PersonaFacade;
 
 
-@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "http://localhost:8080")
 @RestController
 @RequestMapping("/api/personas")
 public class PersonaController {
@@ -89,7 +89,7 @@ public class PersonaController {
 
 	
 	
-	@DeleteMapping("/id}")
+	@DeleteMapping("/{id}")
 	public ResponseEntity<Persona> deletePersona(@PathVariable long id) {
 		try {
 			personaFacade.deletePersona(id);
