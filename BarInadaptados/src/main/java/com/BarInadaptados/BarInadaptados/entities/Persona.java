@@ -16,7 +16,7 @@ public class Persona {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
+	private Long IdPersona;
 
 	@Column(name = "nombre")
 	private String nombre;
@@ -43,11 +43,11 @@ public class Persona {
 	private String rol;
 
 	public Long getId() {
-		return id;
+		return IdPersona;
 	}
 
 	public void setId(Long id) {
-		this.id = id;
+		this.IdPersona = id;
 	}
 
 	public String getNombre() {
